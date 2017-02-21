@@ -1,0 +1,15 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+@font-face {
+    font-family: MyFont;
+    src:
+        url('./Fonts/MontSerif.woff2') format('woff2');
+}
+
+body {
+    font-family: 'MyFont;  
+}
+
+.container {
+    background-color: red;
+    font-family: 'MyFont;    
+}
