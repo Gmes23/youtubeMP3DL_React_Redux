@@ -1,0 +1,10 @@
+
+.header_navbar {
+    height: 80px;
+    width: 85%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom: 1px solid rgb(99,100,106);
+
+}
