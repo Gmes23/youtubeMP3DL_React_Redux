@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto|Righteous');
 
 .App {
     font-family: 'Montserrat', sans-serif;
@@ -9,10 +9,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: rgb(78,124,152);
 
 }
 
 .NoDecoration {
     list-style: none;
     padding: 0px;
+    margin: 0px;
+}
+
+.Logo {
+  color: white;
+  position: absolute;
+  top: 2%;
+  margin-left: 15px;
+  font-size: 2.2em;
+  font-family: 'Righteous', cursive;
 }

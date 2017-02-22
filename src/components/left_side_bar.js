@@ -6,6 +6,7 @@ class LeftSideBar extends Component {
     return (
       <div className="LeftSideBar">
         <div className="LeftSideBar-Profile">
+           <h1 className="NoDecoration Logo"> GMDLISTEN </h1>
         </div>
         <div className="LeftSideBar-LinkContainer">
              <div className="LeftSideBar-FirstContainer">

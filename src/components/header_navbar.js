@@ -5,7 +5,12 @@ class HeaderNavbar extends Component {
   render() {
     return (
       <div className="header_navbar">
-
+        <div className="search-bar">
+           <div className="search-icon">
+           <input className="search-bar-input" />
+           </div>
+           
+        </div>
       </div>
     );
   }
