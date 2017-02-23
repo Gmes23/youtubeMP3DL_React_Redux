@@ -1,0 +1,81 @@
+
+.right_container_main {
+    position: absolute;
+    background-color: red;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 35%;
+    /*makes video container scroller laggy- not verified*/
+    overflow: hidden;
+}
+
+.right_container_header-links {
+    text-align: center;
+    padding-top: 5%;
+    height: 80px;
+    border-bottom: 1px solid rgb(99,100,106);
+}
+
+.right_container_header-links > ul > li {
+    display: inline;
+    font-size: 1.3em;
+    color: white;
+    /*to be change*/
+    margin-left: 5%;
+}
+
+.feature-container {
+    height: 80px;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 7%;
+    background-color: yellow;
+}
+
+.text-current-feature {
+    display: inline-block;
+    color: white;
+
+}
+
+.add-continuously-playlist {
+    display:inline-block;
+    /*this is not suppose to work but it does...*/
+    float: right;
+}
+
+.video-render-list-container {
+    background-color: pink;
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    padding-right: 5%;
+    padding-left: 7%
+}
+
+.video-render-list-items {
+    height: 125px;
+    margin-bottom: 5px;
+}
+
+.video-render-list-thumbnail {
+    height: 125px;
+    width: 40%;
+    background-size: cover;
+    background-image: url('./images/placeholder (1).jpg');
+    background-repeat: no-repeat;
+    background-position: center;  
+    display: inline-block;
+}
+
+.video-render-list-details {
+    display: inline-block;
+    width: 48%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    position: absolute;
+}
+
