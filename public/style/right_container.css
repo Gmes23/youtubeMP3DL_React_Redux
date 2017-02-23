@@ -4,11 +4,13 @@
     background-color: red;
     right: 0px;
     top: 0px;
-    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
     flex-flow: column;
     height: 100%;
     width: 35%;
-    /*makes video container scroller laggy- not verified*/
     overflow: hidden;
 }
 
@@ -49,10 +51,16 @@
 
 .video-render-list-container {
     background-color: pink;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     overflow-y: scroll;
     padding-right: 5%;
-    padding-left: 7%
+    padding-left: 7%;
+    height: 100%;
+    top: 160px;
+    padding-bottom: 200px;
 }
 
 .video-render-list-items {
@@ -75,7 +83,15 @@
     width: 48%;
     padding-left: 5%;
     padding-top: 5%;
-    padding-bottom: 0%;
-    position: absolute;
+    padding-bottom: 25%;
+    position: relative;
+    font-size: 1.1666em;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #03c;
+    max-height: 3.6em;
+    margin-bottom: 2px;
+    overflow: hidden;
+    cursor: pointer;
 }
 

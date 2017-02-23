@@ -21,72 +21,152 @@ class RightContainer extends Component {
                 <button> autoadd </button>
             </div>
           </div>
-
           <div className="video-render-list-container">
-            <div className="video-render-list-items">
-                <div className="video-render-list-thumbnail">
-                </div>
-                <div className="video-render-list-details">
-                    <p> Title of Song </p>
-                    <br />
-                    <h6> Artist Name ft Artist </h6>
-                </div>
-                <div className="video-render-list-options">
-                </div>
-            </div>
+     
+
+
+
+
+
 
              <div className="video-render-list-items">
                 <div className="video-render-list-thumbnail">
                 </div>
                 <div className="video-render-list-details">
-                    <p> Title of Song </p>
+                    <span> Title of Song </span>
                     <br />
-                    <h6> Artist Name ft Artist </h6>
+                    <span> Artist Name ft Artist </span>
                 </div>
                 <div className="video-render-list-options">
                 </div>
             </div>
 
+
+
+
+
+
+
+   
              <div className="video-render-list-items">
                 <div className="video-render-list-thumbnail">
                 </div>
                 <div className="video-render-list-details">
-                    <p> Title of Song </p>
+                    <span> Title of Song </span>
                     <br />
-                    <h6> Artist Name ft Artist </h6>
+                    <span> Artist Name ft Artist </span>
                 </div>
                 <div className="video-render-list-options">
                 </div>
             </div>
 
+
+
+
+
+
+
+
+
+   
              <div className="video-render-list-items">
                 <div className="video-render-list-thumbnail">
                 </div>
                 <div className="video-render-list-details">
-                    <p> Title of Song </p>
+                    <span> Title of Song </span>
                     <br />
-                    <h6> Artist Name ft Artist </h6>
+                    <span> Artist Name ft Artist </span>
                 </div>
                 <div className="video-render-list-options">
                 </div>
             </div>
 
+
+
+
+
+
+   
              <div className="video-render-list-items">
                 <div className="video-render-list-thumbnail">
                 </div>
                 <div className="video-render-list-details">
-                    <p> Title of Song </p>
+                    <span> Title of Song </span>
                     <br />
-                    <h6> Artist Name ft Artist </h6>
+                    <span> Artist Name ft Artist </span>
                 </div>
                 <div className="video-render-list-options">
                 </div>
             </div>
+
 
             
 
-          </div>
 
+
+   
+             <div className="video-render-list-items">
+                <div className="video-render-list-thumbnail">
+                </div>
+                <div className="video-render-list-details">
+                    <span> Title of Song </span>
+                    <br />
+                    <span> Artist Name ft Artist </span>
+                </div>
+                <div className="video-render-list-options">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+   
+             <div className="video-render-list-items">
+                <div className="video-render-list-thumbnail">
+                </div>
+                <div className="video-render-list-details">
+                    <span> Title of Song </span>
+                    <br />
+                    <span> Artist Name ft Artist </span>
+                </div>
+                <div className="video-render-list-options">
+                </div>
+            </div>
+
+
+
+
+
+   
+             <div className="video-render-list-items">
+                <div className="video-render-list-thumbnail">
+                </div>
+                <div className="video-render-list-details">
+                    <span> Title of Song </span>
+                    <br />
+                    <span> Artist Name ft Artist </span>
+                </div>
+                <div className="video-render-list-options">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
       </div>
     );
   }
