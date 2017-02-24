@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../../public/style/right_container.css';
+import VideoList from './video_list';
 
 class RightContainer extends Component {
+
   render() {
     return (
       <div className="right_container_main">
@@ -22,7 +24,7 @@ class RightContainer extends Component {
             </div>
           </div>
           <div className="video-render-list-container">
-     
+            <VideoList  />
 
 
 

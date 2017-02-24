@@ -8,7 +8,7 @@
     border-bottom: 1px solid rgb(99,100,106);
 }
 
-.search-bar {
+.search-bar-container {
     position: absolute;
     padding-top: 1.2%;
     width: 26%;
